@@ -94,7 +94,7 @@ body {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-brand {
-    color: #25337F;
+    color:  white;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -102,10 +102,10 @@ body {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
-    font-weight: 400;
+    font-weight: 900;
     padding: .75em 0;
     letter-spacing: 1px;
-    color: #fff;
+    color: #CC9550;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -579,4 +579,8 @@ ul.social-buttons li a {
 }
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #25337F;
+}
+
+.progress-container {
+    font-family: 'roboto slab',sans-serif;
 }
